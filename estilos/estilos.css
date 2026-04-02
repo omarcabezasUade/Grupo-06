@@ -1,0 +1,53 @@
+:root {
+
+  --bg-dark: #0B1E33;
+  --bg-card: #162D44;
+  --accent-lime: #B2FF41;
+  --text-main: #ffffff;
+  --text-muted: #8A9BA8;
+  --border-glow: rgba(178, 255, 65, 0.3);
+
+  
+  --font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--text-muted);
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--accent-lime);
+  box-shadow: 0 0 15px var(--border-glow);
+}
+
+
+.btn-cta {
+  background-color: var(--accent-lime);
+  color: var(--bg-dark);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+
+.line-accent {
+  height: 2px;
+  background-color: var(--accent-lime);
+  box-shadow: 0 0 8px var(--accent-lime);
+}
