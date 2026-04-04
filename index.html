@@ -1,52 +1,62 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PÁGINA PRINCIPAL - TRACKLINE STUDIO</title>
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
-
-<body>
-    <header>
-        <a href="index.html" class="logo">TRACKLINE STUDIO</a>
-        <nav>
-            <a href="index.html" class="active">INICIO</a>
-            <a href="servicios.html">SERVICIOS</a>
-            <a href="alianzas.html">ALIANZAS</a>
-            <a href="casos_de_exito.html">CASOS DE EXITO</a>
-            <a href="contacto.html">CONTACTO</a>
-            <a href="sobre_nosotros.html">SOBRE NOSOTROS</a>
-        </nav>
+<body class="home-page">
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a href="index.html" class="logo">TRACKLINE STUDIO</a>
+            <nav class="site-nav" aria-label="Principal">
+                <a href="index.html" class="active" aria-current="page">INICIO</a>
+                <a href="servicios.html">SERVICIOS</a>
+                <a href="alianzas.html">ALIANZAS</a>
+                <a href="casos_de_exito.html">CASOS DE EXITO</a>
+                <a href="contacto.html">CONTACTO</a>
+                <a href="sobre_nosotros.html">SOBRE NOSOTROS</a>
+            </nav>
+        </div>
     </header>
 
-    <div class="container">
-        <h1>Bienvenidos a Trackline Studio!</h1>
-        <p class="section-tag">Nuestra empresa digital</p>
-        <p class="section-desc">
-            En esta página te vamos a contar como diseñamos el futuro de tu marca en internet.
-            Analizamos y ejecutamos estrategias de alto rendimiento. Transformamos ideas en motores de crecimiento.
-        </p>
+    <main class="page-shell">
+        <div class="container">
+            <section class="page-hero hero-split">
+                <div>
+                    <h1>Bienvenidos a Trackline Studio!</h1>
+                    <p class="section-tag">Nuestra empresa digital</p>
+                    <p class="section-desc">
+                        En esta página te vamos a contar como diseñamos el futuro de tu marca en internet.
+                        Analizamos y ejecutamos estrategias de alto rendimiento. Transformamos ideas en motores de crecimiento.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="servicios.html" class="btn btn-primary">VER SERVICIOS</a>
+                    </div>
+                </div>
+                <aside class="hero-note">
+                    <h2>¿Quiénes somos?</h2>
+                    <p>
+                        Trackline Studio es más que una agencia de publicidad. Somos arquitectos de experiencias digitales.
+                        Mezclamos lógica con diseño para trazar caminos claros.
+                        Creemos que la web no solo tiene que ser linda, tiene que funcionar bien.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="sobre_nosotros.html" class="btn btn-secondary">Saber más sobre nosotros click aqui</a>
+                    </div>
+                </aside>
+            </section>
+        </div>
+    </main>
 
-        <br>
-        <a href="servicios.html" class="btn btn-primary">VER SERVICIOS</a>
-
-        <br><br>
-
-        <h2>¿Quiénes somos?</h2>
-        <p>
-            Trackline Studio es más que una agencia de publicidad. Somos arquitectos de experiencias digitales.
-            Mezclamos lógica con diseño para trazar caminos claros.
-            Creemos que la web no solo tiene que ser linda, tiene que funcionar bien.
-        </p>
-        <a href="sobre_nosotros.html">Saber más sobre nosotros click aqui</a>
-    </div>
-    <footer>
-        <p>Copyright 2026 - Trackline Studio - Todos los derechos reservados</p>
-        <div class="footer-bottom">
-            <a href="index.html">Inicio</a> |
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>Copyright 2026 - Trackline Studio - Todos los derechos reservados</p>
+            <div class="footer-bottom">
+                <a href="index.html">Inicio</a> |
+            </div>
         </div>
     </footer>
 </body>
-
 </html>
